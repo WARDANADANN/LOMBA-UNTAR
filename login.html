@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiKecilku</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <title>Contact Form Template</title>
+            <link rel="stylesheet" href="/build/tailwind.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+        </head>
+        <body class>
+            <div class="lg:flex">
+                <div class="lg:w-1/2 xl:max-w-screen-sm">
+                    <div class="py-12 bg-indigo-100 lg:bg-white flex justify-center lg:justify-start lg:px-12">
+                        <div class="cursor-pointer flex items-center">
+                            <div class="text-2xl text-indigo-800 tracking-wide ml-2 font-semibold">SiKecilku</div>
+                        </div>
+                    </div>
+                    <div class="mt-10 px-12 sm:px-24 md:px-48 lg:px-12 lg:mt-16 xl:px-24 xl:max-w-2xl">
+                        <h2 class="text-center text-4xl text-indigo-900 font-display font-semibold lg:text-left xl:text-5xl
+                        xl:text-bold">Log in</h2>
+                        <div class="mt-12">
+                            <form action="controller/login.php" method="post">
+                                <div>
+                                    <label class="text-sm font-bold text-gray-700 tracking-wide" for="email">
+                                        Email Address</label>
+                                    <input class="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" type="email" placeholder="namamu@gmail.com" id="email" name="email">
+                                </div>
+
+                                <div class="mt-8">
+                                    <div class="flex justify-between items-center">
+                                        <label class="text-sm font-bold text-gray-700 tracking-wide" for="password">Password</label>
+                                        <div>
+                                            <a class="text-xs font-display font-semibold text-indigo-600 hover:text-indigo-800 cursor-pointer"
+                                            href="#">
+                                                Forgot Password?
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <input class="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" type="password" placeholder="12345678" id="password" name="password">
+                                </div>
+
+                                <div class="mt-10">
+                                    <button class="bg-indigo-500 text-gray-100 p-4 w-full rounded-full tracking-wide
+                                    font-semibold font-display focus:outline-none focus:shadow-outline hover:bg-indigo-600
+                                    shadow-lg" type="submit" name="login">
+                                        Log In
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="mt-12 text-sm font-display font-semibold text-gray-700 text-center">
+                                Don't have an account ? 
+                                <a class="cursor-pointer text-indigo-600 hover:text-indigo-800"
+                                href="signup.html"
+                                >Sign up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:flex items-center justify-center bg-indigo-100 flex-1 h-screen">
+                    <div class="max-w-xs transform duration-200 hover:scale-110 cursor-pointer">
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
+    
+</body>
+</html>
